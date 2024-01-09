@@ -1,0 +1,292 @@
+@charset "utf-8";
+/* CSS Document */
+
+/* Home.html*/
+#introduction
+{
+	margin: auto;
+	padding-left: 100px;
+	padding-top: 100px;
+}
+
+
+.find-out-more {
+	margin-left: 100px;
+	margin-right: 100px;
+}
+
+.btn-ClickMe {
+	font-size: 20px;
+	border-radius: 5px;
+	width: 120px;
+	height: 50px;
+	margin-top: 15px;
+	margin-bottom: 20px;
+}
+
+.btn-ClickMe:hover
+{
+	color: #F79500;
+	background-color: black;
+}
+
+.navbar-nav {
+	font-family: "Open Sans";
+}
+
+.nav-link:hover {
+	color: #F79500;
+	background-color: #FFFFFF;
+}
+
+.dropdown-item:hover {
+	color: #F79500;
+	background-color: #000000;
+}
+
+.dropdown:hover {
+	color: #F79500;
+	background-color: #FFFFFF;
+}
+
+.p-Intro {
+	font-family: "Open Sans";
+}
+
+#position {
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+/* End of Home.html */
+
+
+/* Contact.html */
+/*
+.Contact {
+	margin-left: 300px;
+	margin-bottom: 30px;
+	width: 700px;
+	height: 700px;
+	background-color: #F79500;
+
+}
+*/
+
+.h4-ContactMe {
+	padding: 20px;
+	text-align: center;
+}
+
+.form {
+	padding-left: 20px;
+	padding-top: 10px;
+
+}
+
+
+.container {
+	margin-left: 30px;
+	margin-right: 30px;
+	margin-bottom: 30px;
+}
+
+/* Next & previous buttons */
+.prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 35%;
+  width: auto;
+  padding: 16px;
+  margin-top: -50px;
+  color: black;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+}
+
+/* Six columns side by side */
+.column {
+  float: left;
+  width: 16.66%;
+}
+
+/* Container for image text */
+.caption-container {
+  text-align: center;
+  background-color: #222;
+  padding: 2px 16px;
+  color: white;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.colourScheme
+{
+	display: flex;
+}
+
+.circle1 {
+	height: 100px;
+	width: 100px;
+	border-radius: 50%;
+	margin-right: 10px;
+}
+
+.circle2 {
+		height: 100px;
+	width: 100px;
+	border-radius: 50%;
+		margin-right: 10px;
+}
+
+.circle3 {
+		height: 100px;
+	width: 100px;
+	border-radius: 50%;
+}
+
+.overlay {
+	transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+transform: translate(-50%, -50%);
+  text-align: center; 
+}
+.card:hover .image {
+  opacity: 0.3;
+}
+
+.card:hover .overlay {
+  opacity: 1;
+}
+
+div.scroll-container {
+  background-color: #333;
+  overflow: auto;
+  white-space: nowrap;
+  padding: 10px;
+}
+
+div.scroll-container img {
+  padding: 10px;
+}
+
+/*Skill Bar */
+* {box-sizing: border-box}
+
+.skillscontainer {
+  width: 100%;
+  background-color: #ddd;
+	margin-left: 10px;
+	margin-right: 10px;
+}
+
+.skills {
+  text-align: right;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  color: white;
+}
+
+.html {width: 85%; background-color: #04AA6D; animation: html 4s;}
+.css {width: 70%; background-color: #2196F3 ; animation: css 4s}
+.js {width: 40%; background-color: #f44336;animation: js 4s}
+.php {width: 60%; background-color: #808080;animation: php 4s}
+.xd {width: 65%; background-color: #FFE5B4; animation:  xd 4s}
+
+
+@keyframes html{ /*animate html skills*/
+	0%{
+		width: 0%;
+	}
+
+	100%{
+		width: 85%;
+	}
+}
+
+@keyframes css{ /*animate css skills*/
+	0%{
+		width: 0%;
+	}
+
+	100%{
+		width: 70%;
+	}
+}
+
+@keyframes js{ /*animate js skills*/
+	0%{
+		width: 0%;
+	}
+
+	100%{
+		width: 40%;
+	}
+}
+
+@keyframes php{ /*animate php skills*/
+	0%{
+		width: 0%;
+	}
+
+	100%{
+		width: 60%;
+	}
+}
+
+@keyframes xd{ /*animate xd skills*/
+	0%{
+		width: 0%;
+	}
+
+	100%{
+		width: 65%;
+	}
+}
+
+
+
+#myVideo {
+  position: fixed;
+/*  right: 0;*/
+/*  bottom: 0;*/
+  min-width: 100%;
+  min-height: 100%;
+}
+
+/* Add some content at the bottom of the video/page */
+.content {
+  position: fixed;
+  bottom: 200px;;
+  background: rgba(0, 0, 0, 0.5);
+  color: #f1f1f1;
+  width: 100%;
+  padding: 20px;
+
+}
+
+@media screen and (max-width: 600px) {
+	.content
+	{
+		display: none;
+	}
+  }
+
+
+
+
+

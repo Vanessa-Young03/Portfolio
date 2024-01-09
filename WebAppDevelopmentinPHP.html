@@ -1,0 +1,355 @@
+<!doctype html>
+<html>
+
+<head>
+  <link rel="icon" href="../LogoDevelopment/SVG/Logo Development 4.webp" type="image/webp">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+  <link type="text/css" rel="stylesheet" href="CSS_StyleSheet.css">
+  <title>Fundamentals Of Design - Vanessa Young</title>
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-sm navbar-light" style="background-color: #ADD8E6;">
+    <div class="container-fluid">
+        <a class="navbar-brand" href="#">
+            <img src="Images/SVG/Logo Development 4.webp" alt="Logo" width="150px" height="150px;" style="margin-left: 50px;">
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="Home.html">HOME</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                        style="color: #F79500"><b>PORTFOLIO(DEVELOPMENT)</b></a>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="Design.html">DESIGN</a></li>
+                        <li><a class="dropdown-item" href="Development.html" style="color: #F79500;"><b>DEVELOPMENT</b></a></li>
+                        <li><a class="dropdown-item" href="VR.html">IMMERSIVE TECHNOLOGIES</a></li>
+                    </ul>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="About.html" style="color: black">ABOUT</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="Contact.html" style="color: black">CONTACT</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+  <h1 style="text-align: center;">Web App Development in PHP</h1>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-2"></div>
+      <div class="col-md-3">
+        <div class="card">
+          <img class="card-img-top" src="Images/C203_L05/View.jpg" alt="" style="height: 375px;">
+          <div class="card-body">
+            <h6 class="card-title">Book Rental Website</h6>
+            <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#C203_L08">See
+              Details</button>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-2"></div>
+      <div class="col-md-3">
+        <div class="card">
+          <img class="card-img-top" src="Images/C203_L08/ViewList.jpg" alt="" style="height: 375px;">
+          <div class="card-body">
+            <h6 class="card-title">Items Website</h6>
+            <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#C203_L08">See
+              Details</button>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-2"></div>
+    </div>
+  </div>
+
+  <div class="container">
+    <div class="row">
+      <div class="col-md-2"></div>
+      <div class="col-md-3">
+        <div class="card" style="height: 500px;">
+          <img class="card-img-top" src="Images/C203_L09/register.jpg" alt="" style="height: 400px; width: 260px;">
+          <div class="card-body">
+            <h6 class="card-title">Colour Changer Website</h6>
+            <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#C203_L09">See
+              Details</button>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-2"></div>
+      <div class="col-md-3">
+        <div class="card" style="height: 500px;">
+          <img class="card-img-top" src="Images/C203_L10/Home.jpg" alt="" style="height: 400px;width: 260px;">
+          <div class="card-body">
+            <h6 class="card-title">Used Item List Website</h6>
+            <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#C203_L10">See
+              Details</button>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-2"></div>
+    </div>
+  </div>
+
+  <div class="container">
+    <div class="row">
+      <div class="col-md-2"></div>
+      <div class="col-md-3">
+        <div class="card" style="height: 500px;">
+          <img class="card-img-top" src="Images/C203_GA/Movies.jpg" alt="" style="height: 400px; width: 260px;">
+          <div class="card-body">
+            <h6 class="card-title">Movie Review Website</h6>
+            <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#C203_GA">See
+              Details</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <!--C203_L05-->
+  <!-- The Modal -->
+  <div class="modal" id="C203_L05">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content">
+        <h1 style="text-align: center;">Book Rental Website</h1>
+        <!-- Modal Header -->
+        <div class="modal-header">
+          <div class="scroll-container">
+            <img src="Images/C203_L05/View.jpg" alt="View" width="450" height="400">
+            <img src="Images/C203_L05/Insert.jpg" alt="Insert" width="450" height="400">
+            <img src="Images/C203_L05/Search.jpg" alt="CS2" width="450" height="400">
+          </div>
+        </div>
+        <!-- Modal body -->
+        <div class="modal-body">
+          <h3>Topics Covered:</h3>
+          <ul>
+            <li>View</li>
+            <li>Insert</li>
+            <li>Search</li>
+          </ul>
+          <br>
+          <p>On the View page, it will show the various of books that is available in the database, which include title,
+            category, pages, quantity and rent price</p>
+          <p>On the Insert page, it will require the user to enter the details such as title, category, pages, quantity
+            and rent price. After the user click on submit, it will insert into the database and show it on the view
+            page.</p>
+          <p>On the Search page, It will require the user to enter the words that is contains in the book title. After
+            the user click on search, the books that contains the words that the user search will displayed on the page.
+          </p>
+
+          <!-- Modal footer -->
+          <div class="modal-footer">
+            <a class="btn btn-primary" target="_blank"
+              href="https://drive.google.com/file/d/1ZNJ-nPl1LOyxREkotaKAtb-WRPovuqtJ/view?usp=sharing">Video</a>
+            <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <!--C203_L08-->
+  <!-- The Modal -->
+  <div class="modal" id="C203_L08">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content">
+        <h1 style="text-align: center;">Items Website</h1>
+        <!-- Modal Header -->
+        <div class="modal-header">
+          <div class="scroll-container">
+            <img src="Images/C203_L08/ViewList.jpg" alt="View" width="450" height="400">
+            <img src="Images/C203_L08/ListDetails.jpg" alt="Insert" width="450" height="400">
+            <img src="Images/C203_L08/Edit.jpg" alt="Insert" width="450" height="400">
+            <img src="Images/C203_L08/Delete.jpg" alt="CS2" width="450" height="400">
+          </div>
+        </div>
+        <!-- Modal body -->
+        <div class="modal-body">
+          <h3>Topics Covered:</h3>
+          <ul>
+            <li>Edit</li>
+            <li>Delete</li>
+          </ul>
+          <br>
+          <p>On the View page, it displays the list of items that can be edit and delete, when you click on the item
+            name, it will show you the details of the items such as item name, description, date sold, quanlity and
+            price</p>
+          <p>On the Edit page, it will automatically show the details of items that the user wanted to edit. After
+            finishing editing and the user click on submit, the details will be updated in the database and show on the
+            item list page.</p>
+          <p>On the Delete page, it will automatically show the details of items that the user wanted to delete. After
+            the user click on delete, it will delete from the database and it will not show on the item list page.</p>
+
+          <!-- Modal footer -->
+          <div class="modal-footer">
+            <a class="btn btn-primary" target="_blank"
+              href="https://drive.google.com/file/d/1ZwVYcnypgEgGDH0uyU7MzjHdH3k5slRY/view?usp=sharing">Video</a>
+            <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <!--C203_L09-->
+  <!-- The Modal -->
+  <div class="modal" id="C203_L09">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content">
+        <h1 style="text-align: center;">Colour Changer Website</h1>
+        <!-- Modal Header -->
+        <div class="modal-header">
+          <div class="scroll-container">
+            <img src="Images/C203_L09/register.jpg" alt="View" width="450" height="400">
+            <img src="Images/C203_L09/login.jpg" alt="login" width="450" height="400">
+            <img src="Images/C203_L09/home1.jpg" alt="home1" width="450" height="400">
+            <img src="Images/C203_L09/home2.jpg" alt="cookie" width="450" height="400">
+            <img src="Images/C203_L09/session.jpg" alt="session" width="450" height="400">
+            <img src="Images/C203_L09/cookie.jpg" alt="cookie" width="450" height="400">
+          </div>
+        </div>
+        <!-- Modal body -->
+        <div class="modal-body">
+          <h3>Topics Covered:</h3>
+          <ul>
+            <li>Session</li>
+            <li>Cookies</li>
+          </ul>
+          <br>
+          <p>The user is required to register an account if they do not have.</p>
+          <p>The user is required to login if they already have an account.</p>
+          <p>After the user has login, it will direct them to the home page whereby they can choose the colour for their
+            background.</p>
+          <p>After the user has choose the color and click on confirm, the backgroud will change the color that the user
+            has choosen.</p>
+          <p>By using session, it can check if the user has logged in to access the protected pages.</p>
+          <p>By using cookie, it can set the duration of how long the color will stay in the background before it turn
+            back to its original color which is white. Also, even the user has logged out and logged in again, the color
+            will still remain the same as before when the user logged out.</p>
+
+          <!-- Modal footer -->
+          <div class="modal-footer">
+            <a class="btn btn-primary" target="_blank"
+              href="https://drive.google.com/file/d/1C09p1xChPGsGfPrQzVrQMeFY2HEtV-2v/view?usp=sharing">Video</a>
+            <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <!--C203_L10-->
+  <!-- The Modal -->
+  <div class="modal" id="C203_L10">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content">
+        <h1 style="text-align: center;">Used Items Website</h1>
+        <!-- Modal Header -->
+        <div class="modal-header">
+          <div class="scroll-container">
+            <img src="Images/C203_L10/Home.jpg" alt="Home" width="450" height="400">
+            <img src="Images/C203_L10/adminLogin.jpg" alt="adminLogin" width="450" height="400">
+            <img src="Images/C203_L10/adminLoginSuccess.jpg" alt="adminLoginSuccess" width="450" height="400">
+            <img src="Images/C203_L10/memberLogin.jpg" alt="memberLogin" width="450" height="400">
+            <img src="Images/C203_L10/memberLoginSuccess.jpg" alt="memberLoginSuccess" width="450" height="400">
+          </div>
+        </div>
+        <!-- Modal body -->
+        <div class="modal-body">
+          <h3>Topics Covered:</h3>
+          <ul>
+            <li>User rights and Management - defining user roles, assigning rights to roles, implementing autorization.
+            </li>
+          </ul>
+          <br>
+          <p>On the home page, it show the used item name, description, price and the owner name.</p>
+          <p>If the user login as a role of an admin, it is given the rights to delete everybody post including
+            themselves.</p>
+          <p>If the user login as a role of an member, it is given the rights to edit their post only. They are not
+            allow to edit other posts.</p>
+
+          <!-- Modal footer -->
+          <div class="modal-footer">
+            <a class="btn btn-primary" target="_blank"
+              href="https://drive.google.com/file/d/1D7zl7KiPCbSvirrIlCxJX_Jg9rlJK65B/view?usp=sharing">Video</a>
+            <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <!--C203_GA-->
+  <!-- The Modal -->
+  <div class="modal" id="C203_GA">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content">
+        <h1 style="text-align: center;">Movie Review Website</h1>
+        <!-- Modal Header -->
+        <div class="modal-header">
+          <div class="scroll-container">
+            <img src="Images/C203_GA/Movies.jpg" alt="Movies" width="450" height="400">
+            <img src="Images/C203_GA/Register.jpg" alt="Register" width="450" height="400">
+            <img src="Images/C203_GA/Login.jpg" alt="Login" width="450" height="400">
+            <img src="Images/C203_GA/Movies.jpg" alt="Movies" width="450" height="400">
+            <img src="Images/C203_GA/MoviesInformation.jpg" alt="MoviesInformation" width="450" height="400">
+            <img src="Images/C203_GA/MovieReview.jpg" alt="MovieReview" width="450" height="400">
+            <img src="Images/C203_GA/AddReview.jpg" alt="AddReview" width="450" height="400">
+            <img src="Images/C203_GA/AddedReviewSuccess.jpg" alt="AddReviewSuccess" width="450" height="400">
+          </div>
+        </div>
+        <!-- Modal body -->
+        <div class="modal-body">
+          <h3>Topics Covered:</h3>
+          <ul>
+            <li>View</li>
+            <li>Insert</li>
+            <li>Update</li>
+            <li>Delete</li>
+            <li>Search</li>
+            <li>User rights and Management</li>
+          </ul>
+          <br>
+          <p>The user will need to register with their details such as fullname, email address, date of birth, username
+            and password.</p>
+          <p>The user can login in with their username and password to add, edit and delete reviews. If they did not
+            login, the only can view movie information and review plus search movie</p>
+          <p>After the user has log in, it will direct them to the page whereby it will shows a list of movies. When
+            they click on see more, it will show them the movie information such as movie genre, language, director,
+            casts, synopsis</p>
+          <p>After the user click on reviews, it will direct them to the page whereby it require the user to enter their
+            reviews and ratings for the movie. Once the review has been added, it will insert to the database and
+            display on the review page.</p>
+          <!-- Modal footer -->
+          <div class="modal-footer">
+            <a class="btn btn-primary" target="_blank"
+              href="https://drive.google.com/file/d/19AsEJ94n633nK_dkz4HcMAsT24UU6lDZ/view?usp=sharing">Video</a>
+            <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</body>
+
+</html>
